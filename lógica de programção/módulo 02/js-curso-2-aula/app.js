@@ -1,5 +1,5 @@
 
-let numeroSecreto = 5;
+let numeroSecreto = 4;
 let tentivas = 1;
 
 function exibirTextoNaTela(tag, texto) {
@@ -18,7 +18,7 @@ function verificarChute() {
       let palavraTentativa = tentivas > 1 ? 'tentativas' : 'tentativa';
       let msgTentativas = `Você descobriu o número secreto com ${tentivas} ${palavraTentativa}`;
       exibirTextoNaTela('p', msgTentativas)
-       
+       document.getElementById('reiniciar').removeAttribute('disabled')
     } else {
         if (numeroSecreto > chute ){
             exibirTextoNaTela('p','O número secreto é maior')
@@ -33,7 +33,6 @@ function verificarChute() {
 
 function gerarNumeroAleatorio() {
    return parseIntI(Math.random() * 10 + 1)
-
 }
 
 function limparCampo() {
