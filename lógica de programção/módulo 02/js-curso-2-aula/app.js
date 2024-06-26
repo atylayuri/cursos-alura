@@ -17,7 +17,7 @@ function exibirTextoNaTela(tag, texto) {
 
 function verificarChute() {
     chute = document.querySelector('input').value
-
+//Achar o erro do maior ou menor depois
     if (chute == numeroSecreto) {
         exibirTextoNaTela('h1' , 'Acertou!');
       let palavraTentativa = tentivas > 1 ? 'tentativas' : 'tentativa';
