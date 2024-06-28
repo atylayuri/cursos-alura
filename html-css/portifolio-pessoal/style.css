@@ -1,11 +1,29 @@
 *{
     padding: 0px;
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 body {
     background-color: #042942;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+}
+
+.alinhamento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10%;
+    display: flex;
+    align-items: center;  
+    justify-content: space-between; 
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+   
 }
 
 strong {
@@ -13,40 +31,21 @@ strong {
 }
 
 h1 {
-    text-align: left;
-    margin: auto;
-    margin-bottom: 10px;
-    padding-top: 10px;
-    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
+    font-size: 36px;
 }
 
 p {
-    margin: auto;
-    width: 600px;
-    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;;
     color: white;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 24px
 }
 
-.img {
-    text-align: center;
-    margin-top: 10px;
+img {
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.199);
 }
 
-
-.butao { 
-    text-align: center;
-}
-
-button {
-    background-color: #0087E0;
-    margin-top: 8px;
-    margin-bottom: 20px;
-    color: white;
-    border: none;
-    width: 80px;
-    height: 40px;
-    border-radius: 50px;
-}
