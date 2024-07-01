@@ -4,25 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./estilos/style.css">
 </head>
 <body>
-    <header>
-
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        </nav>
     </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__titulo">Eleve seu negócio digital a outro nível <span class="titulo-destaque">com Front-end de qualidade!</span></h1>
             <p class="apresentacao__texto">Olá! Sou Joana Santos, denselvolvedora Front-end com especialidades em React, HTML e CSS. Ajudo pequenos negócios e disigners a colocarem em prática boas ideias. Vamos conversar?</p>
             <div class="apresentacao__links">
-                <a class="apresentacao__links__link" href="#">Instagram</a>
-                <a class="apresentacao__links__link" href="#">GitHub</a>
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes</h2>
+                <a class="apresentacao__links__link" href="#">
+                    <img src="imagens/github.png" alt="logo do GitHub">GitHub</a>
             </div>
         </section>
         <img src="imagens/joana.png" alt="Joana programando">
     </main>
-    <footer>
-
+    <footer class="rodape">
+        <p>Desenvolvido por Atyla Yuri</p>
     </footer>
 </body>
 </html>
